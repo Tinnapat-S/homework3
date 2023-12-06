@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Sarabun:wght@100;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sarabun', sans-serif;
+}
+body {
+    background-color: #fcfcfc;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    min-height: 30px;
+}
+.logo-text-box {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    align-items: center;
+    min-width: 240px;
+    max-width: 240px;
+}
+.logo-text-box p {
+    font-size: 25px;
+    color: #000000;
+}
+.logo-text-box p span {
+    font-size: 40px;
+    font-style: bold;
+}
+
+.logo-box-size {
+    width: 40px;
+    height: 40px;
+    max-height: 50px;
+    max-width: 50px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 15px; */
+    flex-wrap: nowrap;
+    max-height: 40px;
+    /* padding: 0px 10px; */
+}
+.Nav p {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 5px;
+    min-width: 80px;
+}
+.icon-nav {
+    position: relative;
+    border-radius: 50%;
+    margin: 0px 5px;
+    padding: 2px;
+    height: 30px;
+    width: 30px;
+    max-height: 30px;
+    max-width: 30px;
+    min-width: 30px;
+    min-height: 30px;
+
+}
+.noti-count {
+    position: absolute;
+    background-color: #ff0000;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-white-color {
+    font-size: 8px;
+    color: #ffffff;
+}
+
+h1 {
+    margin: 50px 0px 16px 80px;
+    flex-wrap: nowrap;
+}
+.mainCart {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 80px;
+    gap: 20px;
+}
+.showItem-left {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+}
+.item-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    min-width: 400px;
+    /* width: 45%; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 30px 20px;
+    align-items: center;
+    text-align: left;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.checkout-details {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: nowrap; */
+    flex-direction: column;
+    min-width: 400px;
+    min-height: 300px;
+    width: 100%;
+    height: 25vw;
+    border-radius: 10px;
+    border: 1px solid rgb(232, 231, 231); ;
+    padding: 20px;
+    gap: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.icon-bin  {
+    border: 1px solid #36e3c3;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.icon-bin img {
+    height: 20px;
+    width: 20px;
+}
+.icon-bin:hover{
+    background-color: rgb(239, 239, 239);
+}
+.icon-brand {
+    border-radius: 15px;
+    height: 120px;
+    width: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    overflow: hidden;
+    padding: 16px 12px;
+}
+.background-blue-gredient {
+    background: linear-gradient(0deg, rgba(53,132,199,1) 0%, rgba(48,189,218,0.9948354341736695) 100%);    
+}
+.background-orange-gredient {
+    background: linear-gradient(0deg, rgba(199,143,53,1) 0%, rgba(213,184,61,1) 33%);
+}
+.background-orange-gredient:hover {
+    background: linear-gradient(0deg, rgba(199,143,53,1) 39%, rgba(213,184,61,1) 71%, rgba(226,221,68,0.9948354341736695) 100%);
+}
+.icon-brand-details {
+    padding-top: 5px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.icon-brand-details-p {
+    padding-top: 5px;
+    font-size: 10px;
+    color: #ffffff;
+}
+.icon-box-size-30px {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-box-size-8px {
+    height: 16px;
+    width: 16px
+}
+
+.border-radius-8px {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.full-img-icon{
+    height: 100%;
+    width: 100%;
+}
+.item-name-details {
+    width:  999px;
+    max-width: 150px;
+    max-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.item-name-details h6 {
+    font-size: 20px;
+}
+.item-name-details p {
+    margin-top: 1px;
+}
+.choose-amount {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.rounded { 
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(185, 185, 185);
+    border: none;
+}
+.color-greenpearl {
+    background-color: #36e3c3;
+}
+/* .rounded input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+} */
+.rounded:hover {/*check hover*/
+    background-color: #36e3c3;
+}
+/* .rounded input:checked {
+    background-color: rgb(211, 244, 162);
+    border: none;
+} */
+select {
+    flex-grow: 1;
+    border: none;
+}
+.subTotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.promotion-input-area {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.text-color-grey {
+    color: grey;
+}
+.font-20px {
+    font-size: 20px;
+}
+.subTotal h2 {
+    font-size: 20px;
+    color: #36e3c3;;
+    font-style: bold;
+}
+.promotion-input-area input{
+    display: flex;
+    flex-grow: 2;
+}
+.promotion-input-area button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: #36e3c3;;
+    background-color: #ffffff;
+    color: #36e3c3;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: none;
+}
+.icon-promotion {
+    height: 30px;
+    width: 30px;
+    max-height: 30px;
+    max-width: 30px;
+    overflow: hidden;
+}
+.summit-button {
+    background-color: #36e3c3;
+    border-radius: 10px;
+    border: none;
+    height: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: bold;
+    font-size: 15px;
+    max-height: 40px;
+}
